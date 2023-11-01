@@ -25,6 +25,7 @@ body:before{
     clip-path: circle(15% at 10% 10%);  
     position: absolute;
     filter: blur(100px);
+    pointer-events: none;
 }
 body::after{
     content: "";
@@ -34,6 +35,7 @@ body::after{
     clip-path: circle(15% at 90% 90%);  
     position: absolute;
     filter: blur(100px);
+    pointer-events: none;
 }
 
 
